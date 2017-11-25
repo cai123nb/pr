@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <groupId>com.cjyong.base</groupId>
+    <artifactId>argorithms</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <!-- Add licenses -->
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <!-- Add project code address -->
+    <scm>
+        <url> https://github.com/cai123nb/pr</url>
+        <connection>https://github.com/cai123nb/pr.git</connection>
+        <developerConnection>https://github.com/cai123nb/pr</developerConnection>
+    </scm>
+    <!-- Add developer information  -->
+    <developers>
+        <developer>
+            <name>cjyong</name>
+            <email> 2686600303@qq.com</email>
+            <url>https://github.com/cai123nb/pr</url>
+        </developer>
+    </developers>
+</project>
